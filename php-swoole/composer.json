@@ -1,0 +1,15 @@
+{
+    "name": "otavio/php_40_swoole_php",
+    "autoload": {
+        "psr-4": {
+            "Alura\\SwoolePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Otavio Henrique de Lima e Silva",
+            "email": "otaviohlsilva@gmail.com"
+        }
+    ],
+    "require": {}
+}
