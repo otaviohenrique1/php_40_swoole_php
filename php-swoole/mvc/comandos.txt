@@ -1,0 +1,9 @@
+# Comandos doctrine
+
+## Criar banco de dados
+php vendor/bin/doctrine orm:schema-tool:create
+
+## Criar usuario
+php vendor/bin/doctrine dbal:run-sql "INSERT INTO usuarios (email, senha) VALUES ('email@example.com', '\$argon2i\$v=19\$m=65536,t=4,p=1\$WHpBb1FzTDVpTmQubU55bA\$jtZiWSSbmw1Ru4tYEq1SzShrMu0ap2PjbLRQRubNPgo');"
+* email@example.com
+* 123456
